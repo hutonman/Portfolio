@@ -1,0 +1,20 @@
+#works {
+  margin: 0 auto;
+  background: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  background-image: url(/img/damask-220162_1280.jpg);
+  font-size: 20px;
+  text-align: center;
+
+  .works-contents-wrapper {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .works-contents{
+    width: 50%;
+    img {
+      width: 50%;
+    }
+  }
+}

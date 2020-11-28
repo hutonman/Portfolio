@@ -1,0 +1,97 @@
+
+:root {
+  --logo-width: 35;
+  --logo-color: #dcba87;
+}
+
+#title{
+  background: rgb(0,0,0);
+  background-image: url(/img/decorated-3561710_1920.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.rotation {
+   animation: 5s linear infinite rotation;
+}
+
+
+
+#logo {
+  width: 250px;
+  height: 1000px;
+  margin: 0px auto;
+}
+
+.dot {
+  width: calc(var(--logo-width) * 1px);
+  height: calc(var(--logo-width) * 1px);
+  background: var(--logo-color);
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+}
+
+.logo-part {
+  position: absolute;
+}
+
+.bar {
+  width: calc(var(--logo-width) * 1px * 5);
+  height: 0;
+  border-bottom: calc(var(--logo-width) * 1px / 2  * 1.732) solid var(--logo-color);
+}
+
+.triangle {
+  width: 0px;
+  height: 0;
+  border-bottom: calc(var(--logo-width) * 1px / 2  * 1.732) solid var(--logo-color);
+  border-right: calc(var(--logo-width) * 1px / 2) solid transparent;
+  border-left: calc(var(--logo-width) * 1px / 2) solid transparent;
+  position: absolute;
+}
+
+.right {
+  position: absolute;
+  right: calc(var(--logo-width) * -1px / 2);
+  top: 0;
+}
+.left {
+  position: absolute;
+  left: calc(var(--logo-width) * -1px / 2);
+  top: 0;
+}
+
+.part-bot {
+  bottom: -160%;
+  left: -140%;
+}
+.part-left {
+  transform: rotate(120deg);
+  top: -20%;
+  left: -380%;
+}
+.part-right {
+  transform: rotate(240deg);
+  top: -130%;
+  left: -90%;
+}
+
+.rotation {
+  animation: 1s linear infinite rotation;
+}
+
+@keyframes rotation {
+  0%{ transform:rotate(0);}
+  100%{ transform: rotate(360deg);}
+}
+
+h1 {
+  color: #dcba87;
+  text-align: right;
+  font-size: 50px;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}

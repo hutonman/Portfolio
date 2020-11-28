@@ -1,0 +1,26 @@
+#skills{
+  margin: 0 auto;
+  background: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+  background-image: url(/img/damask-220161_1280.jpg);
+  font-size: 20px;
+  
+
+  .skills-box{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+
+
+
+    .skills-contents {
+      width: 40%;
+      text-align: center;
+      margin: 0 auto;
+      padding: 20px;
+      img{
+        width: 40%;
+      }
+    }
+  }
+}

@@ -1,0 +1,346 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+}
+
+#profile, #skills, #works, #estimate, #contact {
+  padding: 30px 20px;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h2 {
+  margin: 0;
+  padding: 40px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#header {
+  width: 100%;
+  background: black;
+  font-size: 24px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+#header #navi {
+  display: none;
+}
+
+#header ul {
+  margin: 10px;
+  padding: 0;
+}
+
+#header li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+#header a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0px 40px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#header a:hover {
+  background: rgba(255, 255, 255, 0.4);
+  opacity: 0.8;
+}
+
+:root {
+  --logo-width: 35;
+  --logo-color: #dcba87;
+}
+
+#title {
+  background: black;
+  background-image: url(/img/decorated-3561710_1920.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.rotation {
+  -webkit-animation: 5s linear infinite rotation;
+          animation: 5s linear infinite rotation;
+}
+
+#logo {
+  width: 250px;
+  height: 1000px;
+  margin: 0px auto;
+}
+
+.dot {
+  width: calc(var(--logo-width) * 1px);
+  height: calc(var(--logo-width) * 1px);
+  background: var(--logo-color);
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+}
+
+.logo-part {
+  position: absolute;
+}
+
+.bar {
+  width: calc(var(--logo-width) * 1px * 5);
+  height: 0;
+  border-bottom: calc(var(--logo-width) * 1px / 2  * 1.732) solid var(--logo-color);
+}
+
+.triangle {
+  width: 0px;
+  height: 0;
+  border-bottom: calc(var(--logo-width) * 1px / 2  * 1.732) solid var(--logo-color);
+  border-right: calc(var(--logo-width) * 1px / 2) solid transparent;
+  border-left: calc(var(--logo-width) * 1px / 2) solid transparent;
+  position: absolute;
+}
+
+.right {
+  position: absolute;
+  right: calc(var(--logo-width) * -1px / 2);
+  top: 0;
+}
+
+.left {
+  position: absolute;
+  left: calc(var(--logo-width) * -1px / 2);
+  top: 0;
+}
+
+.part-bot {
+  bottom: -160%;
+  left: -140%;
+}
+
+.part-left {
+  -webkit-transform: rotate(120deg);
+          transform: rotate(120deg);
+  top: -20%;
+  left: -380%;
+}
+
+.part-right {
+  -webkit-transform: rotate(240deg);
+          transform: rotate(240deg);
+  top: -130%;
+  left: -90%;
+}
+
+.rotation {
+  -webkit-animation: 1s linear infinite rotation;
+          animation: 1s linear infinite rotation;
+}
+
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+h1 {
+  color: #dcba87;
+  text-align: right;
+  font-size: 50px;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+
+#profile {
+  background: rgba(255, 255, 255, 0.2);
+  background-blend-mode: lighten;
+  background-image: url(/img/damask-937607_1280.jpg);
+  text-align: center;
+  font-size: 24px;
+}
+
+#profile p {
+  padding: 12px;
+}
+
+#skills {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.7);
+  background-blend-mode: lighten;
+  background-image: url(/img/damask-220161_1280.jpg);
+  font-size: 20px;
+}
+
+#skills .skills-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+#skills .skills-box .skills-contents {
+  width: 40%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#skills .skills-box .skills-contents img {
+  width: 40%;
+}
+
+#works {
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-image: url(/img/damask-220162_1280.jpg);
+  font-size: 20px;
+  text-align: center;
+}
+
+#works .works-contents-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+#works .works-contents {
+  width: 50%;
+}
+
+#works .works-contents img {
+  width: 50%;
+}
+
+#estimate {
+  background: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-image: url(/img/damask-937610_1280.jpg);
+  text-align: center;
+  font-size: 24px;
+}
+
+#estimate p {
+  padding: 10px;
+}
+
+#estimate .caution {
+  font-size: 16px;
+  text-decoration: underline;
+  color: black;
+}
+
+#contact {
+  background: rgba(255, 255, 255, 0.2);
+  background-blend-mode: lighten;
+  background-image: url(/img/damask-937607_1280.jpg);
+  text-align: center;
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    width: 100%;
+    font-size: 16px;
+    position: fixed;
+    z-index: 10;
+  }
+  #header #navi {
+    display: inline-block;
+  }
+  #header ul {
+    margin: 0 auto;
+  }
+  #header li {
+    font-size: 10px;
+    display: block;
+    padding: 8px;
+  }
+  :root {
+    --logo-width: 30;
+  }
+  h1 {
+    top: 20%;
+    right: 10%;
+  }
+  #title {
+    background: rgba(255, 255, 255, 0.2);
+    background-blend-mode: lighten;
+    background-image: url(/img/decorated-3561710_1920.jpg);
+  }
+  #title #logo {
+    width: 60%;
+    height: 600px;
+  }
+  #title #logo .dot {
+    display: none;
+  }
+  h2 {
+    padding: 20px;
+    font-size: 40px;
+  }
+  #profile {
+    font-size: 20px;
+  }
+  #skills {
+    margin: 0 auto;
+  }
+  #skills .skills-box {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+  #skills .skills-box .skills-contents {
+    width: 80%;
+  }
+  #works .works-contents {
+    width: 35%;
+  }
+  #works h3 {
+    font-size: 16px;
+  }
+  #estimate {
+    font-size: 16px;
+  }
+  #estimate .caution {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=index.css.map */

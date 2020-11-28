@@ -1,0 +1,16 @@
+#estimate {
+  background: rgba(255,255,255,0.6);
+  background-blend-mode: lighten;
+  background-image: url(/img/damask-937610_1280.jpg);
+  text-align: center;
+  font-size: 24px;
+
+  p {
+    padding: 10px;
+  }
+  .caution {
+    font-size: 16px;
+    text-decoration: underline;
+    color: black;
+  }
+}

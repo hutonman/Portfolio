@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+
+
+  #header {
+    width: 100%;
+    font-size: 16px;
+    position: fixed;
+    z-index: 10;
+
+    #navi {
+      display: inline-block;
+    }
+    ul {
+      margin: 0 auto;
+    }
+    li {
+      font-size: 10px;
+      display: block;
+      padding: 8px;
+    }
+  }
+
+:root {
+      --logo-width: 30;
+}
+
+h1 {
+  top: 20%;
+  right: 10%;
+}
+  #title {
+    background: rgba(255,255,255,0.2);
+    background-blend-mode: lighten;
+    background-image: url(/img/decorated-3561710_1920.jpg);
+    #logo {
+      width: 60%;
+      height: 600px;
+
+      .dot {
+        display: none;
+      }
+    }
+  }
+
+  h2 {
+    padding: 20px;
+    font-size: 40px;
+  }
+  #profile {
+    font-size: 20px;
+  }
+
+  #skills {
+    margin: 0 auto;
+    .skills-box {
+      display: block;
+      width: 100%;
+      padding: 0;
+
+      .skills-contents {
+        width: 80%;
+      }
+    }
+  }
+
+  #works {
+    .works-contents {
+      width: 35%;
+    }
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+  #estimate {
+    font-size: 16px;
+
+    .caution {
+      font-size: 10px;
+    }
+  }
+}
