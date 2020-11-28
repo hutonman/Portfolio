@@ -115,19 +115,19 @@
         <div class="works-contents">
           <a href="https://hutonman.com/wp-content/themes/ImitationSite/Airbnb/index.html">
             <h3>Airbnb</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/imitation1-min.png" alt="Airbnbの画像です">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Airbnb.png" alt="Airbnbの画像です">
           </a>
         </div>
         <div class="works-contents">
           <a href="https://hutonman.com/wp-content/themes/ImitationSite/Jindemo/index.html">
             <h3>Jin Demo Site 4</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/imitation2-min.png" alt="Jinの画像です">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Jindemo.png" alt="Jinの画像です">
           </a>
         </div>
         <div class="works-contents">
           <a href="https://hutonman.com/wp-content/themes/ImitationSite/Xeory/index.html">
             <h3>Xeory Extension</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/imitation3-min.png" alt="Xeoryの画像です">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/Xeory.png" alt="Xeoryの画像です">
           </a>
         </div>
       </div>
@@ -135,13 +135,13 @@
         <div class="works-contents">
           <a href="https://hutonman.com/wp-content/themes/ImitationSite/isara/index.html">
             <h3>iSara</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/imitation4-min.png" alt="iSaraの画像です">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/isara.png" alt="iSaraの画像です">
           </a>
         </div>
         <div class="works-contents">
           <a href="https://hutonman.com/wp-content/themes/ImitationSite/TechCamp/index.html">
             <h3>Tech Camp</h3>
-            <img src="<?php echo get_template_directory_uri(); ?>/img/imitation5-min.png" alt="TechCampの画像です">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/TechCamp.png" alt="TechCampの画像です">
           </a>
         </div>
       </div>
